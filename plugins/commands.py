@@ -61,7 +61,7 @@ async def helpcb(bot, query):
         ))
 
 @Client.on_callback_query(filters.regex(r'^aman'))
-async def helpcb(bot, query):
+async def aman(bot, query):
     await query.message.edit_text(
         text=Translation.CHANNELS_TXT,
         reply_markup=InlineKeyboardMarkup(
@@ -74,13 +74,14 @@ async def helpcb(bot, query):
             InlineKeyboardButton('𝑺𝒖𝒑𝒑𝒐𝒓𝒕', url='https://t.me/+cZGisR7lHeg1ZDdl'),
             InlineKeyboardButton('𝑼𝒑𝒅𝒂𝒕𝒆', url='https://t.me/Moviesofficialchannel0')
         ],[
-            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='back')
+            InlineKeyboardButton('↩𝑩𝒂𝒄𝒌', callback_data='back'),
+            InlineKeyboardButton('ɴᴇxᴛ↩', callback_data='aman')
         ]]
 
         ))
 
 @Client.on_callback_query(filters.regex(r'^amanji'))
-async def helpcb(bot, query):
+async def amanji(bot, query):
     await query.message.edit_text(
         text=Translation.BOT_TXT,
         reply_markup=InlineKeyboardMarkup(
@@ -93,8 +94,8 @@ async def helpcb(bot, query):
             InlineKeyboardButton('Bᴏᴛ⁴', url='https://t.me/YD_String_Generator_Bot'),
             InlineKeyboardButton('Bᴏᴛ⁵', url='https://t.me/YD_2GPT_BOT')
         ],[
-            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='back'),
-            InlineKeyboardButton('Bᴏᴛ¹', callback_data='aman')
+            InlineKeyboardButton('↩𝑩𝒂𝒄𝒌', callback_data='back'),
+            InlineKeyboardButton('ɴᴇxᴛ↩', callback_data='aman')
         ]]
 
         ))
