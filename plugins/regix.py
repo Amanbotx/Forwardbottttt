@@ -55,7 +55,7 @@ async def pub_(bot, message):
        return await stop(client, user)
     temp.forwardings += 1
     await db.add_frwd(user)
-    await send(client, user, "<b>🧡 ғᴏʀᴡᴀʀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ 🥀 <a href=https://t.me/Jisshu_support>SUPPORT</a>🥀</b>")
+    await send(client, user, "<b>🧡 ғᴏʀᴡᴀʀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ 🥀 <a href=https://t.me/+cZGisR7lHeg1ZDdl>SUPPORT</a>🥀</b>")
     sts.add(time=True)
     sleep = 1 if _bot['is_bot'] else 10
     await msg_edit(m, "<code>Processing...</code>") 
@@ -109,7 +109,7 @@ async def pub_(bot, message):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 🥀 <a href=https://t.me/Jisshu_support>SUPPORT</a>🥀</b>")
+        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 🥀 <a href=https://t.me/+cZGisR7lHeg1ZDdl>SUPPORT</a>🥀</b>")
         await edit(m, 'Completed', "completed", sts) 
         await stop(client, user)
             
