@@ -9,7 +9,7 @@ class Translation(object):
 ɪ ᴄᴀɴ ғᴏʀᴡᴀʀᴅ ᴀʟʟ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴏɴᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ</i> <b>➜ ᴡɪᴛʜ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs.
 ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ</b>
 
-<b>👨🏼‍💻 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='https://t.me/MOVIEBOTUPDETA'>JISSHU BOTS</a>🥀</b>"""
+<b>👨🏼‍💻 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='https://t.me/MOVIEBOTUPDETA'>YD Aᴜᴛᴏ Bᴏᴛ™</a>🤪🥴</b>"""
 
 
   HELP_TXT = """<b><u>🔆 HELP</b></u>
@@ -41,9 +41,9 @@ class Translation(object):
   
   ABOUT_TXT = """<b>╭──────❰ 🤖 Bot Details ❱──────〄
 │ 
-│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Jisshu_forward_bot>ғᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
+│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YDForwardXBot>YD ғᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
 │ 👨‍💻 ᴅᴇᴠᴘʟᴏᴇʀ : <a href=https://t.me/YD_OWNER_BOT>YD Oᴡɴᴇʀ Bᴏᴛ™</a>
-│ 🤖 ᴜᴘᴅᴀᴛᴇ  : <a href=https://t.me/MOVIEBOTUPDETA>JISSHU BOTS </a>
+│ 🤖 ᴜᴘᴅᴀᴛᴇ  : <a href=https://t.me/MOVIEBOTUPDETA>YD Aᴜᴛᴏ Bᴏᴛ™ </a>
 │ 📡 ʜᴏsᴛ ᴏɴ : <a href=https://www.hetzner.com/>ʜᴇᴛᴢɴᴇʀ</a>
 │ 🗣️ ʟᴀɴɢᴜᴀɢᴇ  : ᴘʏᴛʜᴏɴ 3 
 {python_version}
@@ -63,7 +63,7 @@ class Translation(object):
  ◈ ᴛɢ ɴᴀᴍᴇ : YD Oᴡɴᴇʀ Bᴏᴛ™
  ◈ ɴɪᴄᴋɴᴀᴍᴇ : A̶m̶a̶n̶ v̶i̶s̶h̶w̶a̶k̶a̶r̶m̶a̶
  ◈ ᴜꜱᴇʀɴᴀᴍᴇ : @YD_OWNER_BOT
- ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/YD_OWNER_BOT'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+ ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/YD_OWNER_BOT'>YD Oᴡɴᴇʀ Bᴏᴛ™</a></b>
 ‿︵‿︵‿︵‿୨❤୧‿︵‿︵‿︵‿"""
   
   CHANNELS_TXT = """
