@@ -9,7 +9,7 @@ from pyrogram import Client, filters, enums, __version__ as pyrogram_version
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/IM_JISSHU')
+        InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', callback_data="owner")
         ],[
         InlineKeyboardButton('📜𝗎𝗉𝖽𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 ', callback_data='aman'),
         InlineKeyboardButton('🤖 Bᴏᴛ ᴜᴘᴅᴀᴛᴇ  ', callback_data='ranju')
@@ -79,6 +79,19 @@ async def aman(bot, query):
         ]]
 
         ))
+
+@Client.on_callback_query(filters.regex(r'^owner'))
+async def owner(bot, query):
+    await query.message.edit_text(
+        text=Translation.OWNER_TXT,
+        reply_markup=InlineKeyboardMarkup(
+             [[
+            InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="back"),
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", user_id=int(5977931010))
+          ]]
+        ))
+            
+            
 
 @Client.on_callback_query(filters.regex(r'^ranju'))
 async def ranju(bot, query):
