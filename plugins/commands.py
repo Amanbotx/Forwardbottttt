@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 main_buttons = [[
         InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/IM_JISSHU')
         ],[
-        InlineKeyboardButton('📜 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', callback_data='aman'),
+        InlineKeyboardButton('📜𝗎𝗉𝖽𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 ', callback_data='aman'),
         InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ', url='https://t.me/JISSHU_BOTS')
         ],[
         InlineKeyboardButton('🙋‍♂️ ʜᴇʟᴘ', callback_data='help'),
@@ -63,7 +63,7 @@ async def helpcb(bot, query):
 @Client.on_callback_query(filters.regex(r'^aman'))
 async def helpcb(bot, query):
     await query.message.edit_text(
-        text=Translation.HELP_TXT,
+        text=Translation.CHANNELS_TXT,
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton('𝑺𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒀𝑻 𝒄𝒉𝒂𝒏𝒏𝒆𝒍', url='https://youtube.com/@ytdautobotz?si=gVP9stGBDZKueRVz')
@@ -74,7 +74,7 @@ async def helpcb(bot, query):
             InlineKeyboardButton('𝑺𝒖𝒑𝒑𝒐𝒓𝒕', url='https://t.me/+cZGisR7lHeg1ZDdl'),
             InlineKeyboardButton('𝑼𝒑𝒅𝒂𝒕𝒆', url='https://t.me/Moviesofficialchannel0')
         ],[
-            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='start')
+            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='back')
         ]]
 
         ))
