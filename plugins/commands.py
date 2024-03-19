@@ -12,7 +12,7 @@ main_buttons = [[
         InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/IM_JISSHU')
         ],[
         InlineKeyboardButton('📜𝗎𝗉𝖽𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 ', callback_data='aman'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ', callback_data='amanji')
+        InlineKeyboardButton('🤖 Bᴏᴛ ᴜᴘᴅᴀᴛᴇ  ', callback_data='amanji')
         ],[
         InlineKeyboardButton('🙋‍♂️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('💁‍♂️ ᴀʙᴏᴜᴛ ', callback_data='about')
@@ -82,7 +82,7 @@ async def helpcb(bot, query):
 @Client.on_callback_query(filters.regex(r'^amanji'))
 async def helpcb(bot, query):
     await query.message.edit_text(
-        text=Translation.CHANNELS_TXT,
+        text=Translation.BOT_TXT,
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton('Bᴏᴛ¹', url='https://t.me/Movie_000_bot')
