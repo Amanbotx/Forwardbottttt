@@ -12,7 +12,7 @@ main_buttons = [[
         InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/IM_JISSHU')
         ],[
         InlineKeyboardButton('📜𝗎𝗉𝖽𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 ', callback_data='aman'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ', url='https://t.me/JISSHU_BOTS')
+        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ', callback_data='amanji')
         ],[
         InlineKeyboardButton('🙋‍♂️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('💁‍♂️ ᴀʙᴏᴜᴛ ', callback_data='about')
@@ -75,6 +75,26 @@ async def helpcb(bot, query):
             InlineKeyboardButton('𝑼𝒑𝒅𝒂𝒕𝒆', url='https://t.me/Moviesofficialchannel0')
         ],[
             InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='back')
+        ]]
+
+        ))
+
+@Client.on_callback_query(filters.regex(r'^amanji'))
+async def helpcb(bot, query):
+    await query.message.edit_text(
+        text=Translation.CHANNELS_TXT,
+        reply_markup=InlineKeyboardMarkup(
+            [[
+            InlineKeyboardButton('Bᴏᴛ¹', url='https://t.me/Movie_000_bot')
+        ],[
+            InlineKeyboardButton('Bᴏᴛ²', url='https://t.me/YDFileStoreBot'),
+            InlineKeyboardButton('Bᴏᴛ³', url='https://t.me/YD_Renema_Bot')
+        ],[
+            InlineKeyboardButton('Bᴏᴛ⁴', url='https://t.me/YD_String_Generator_Bot'),
+            InlineKeyboardButton('Bᴏᴛ⁵', url='https://t.me/YD_2GPT_BOT')
+        ],[
+            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='back'),
+            InlineKeyboardButton('Bᴏᴛ¹', callback_data='aman')
         ]]
 
         ))
